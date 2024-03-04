@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Loopple/loopple-public-assets@main/motion-tailwind/css/leaflet.css">
+
+</head>
+<body class="bg-gray-100">
+    <div class="w-full ">
+    
+        <div  style="background-image: url('./Background-Images/Screenshot\ 2024-03-04\ 112402.png'); background-repeat: no-repeat; object-fit: cover;">
+            <div class="relative flex flex-wrap items-center justify-between w-full border-b-2 pr-6">
+                
+                    
+                <div class="px-2 py-2">
+                    <img class="h-24 "
+                        src="./Images/Screenshot 2024-03-04 151446.png" alt="logo">
+                </div>
+                    
+                <div class="hidden md:flex items-center justify-between text-black gap-12 p-4" >
+                    <a href="javascript:void(0)" class="text-sm font-normal text-dark-grey-600 hover:text-blue-700 p-3 lg:text-lg">Tutors</a>
+                    <a href="javascript:void(0)" class="text-sm font-normal text-dark-grey-600 hover:text-blue-700 p-3 lg:text-lg">Subjects</a>
+                    <a href="javascript:void(0)" class="text-sm font-normal text-dark-grey-600 hover:text-blue-700 p-3 lg:text-lg">How it works</a>
+                    <a href="javascript:void(0)" class="text-sm font-normal text-dark-grey-600 hover:text-blue-700 p-3 lg:text-lg">Resources</a>
+                </div>
+        
+                <div class=" md:flex items-center gap-8 " >
+                    <a href="./Log In/sign-in.html">
+                        <button class="text-sm font-normal text-dark-grey-800 hover:text-dark-grey-500 px-6 py-3 bg-blue-700 hover:bg-gray-300 rounded-xl">Log In</button>
+                    </a>
+                </div>
+            </div>
+
+            <section class="grid lg:grid-cols-2 my-20 mx-20" >
+                
+                <div class="p-10 flex flex-col justify-center items-start">
+                    <h1 class="mb-6 text-4xl font-extrabold leading-tight lg:text-6xl text-gray-900">Welcome to TutorFinder</h1>
+                    <p class="my-3 text-lg"> A platform designed to bridge the gap between students who need help and tutors who can 
+                        provide it. Inspired by the struggles of young learners, TutorFinder was created with a simple goal in mind: 
+                        to make quality education accessible for all. Whether you're a student struggling with a particular subject or 
+                        a tutor looking to share your knowledge, TutorFinder is the place for you.
+                    </p>
+
+                    <div class="flex flex-col items-start lg:flex-row gap-5">
+                        <button class="text-sm font-normal text-dark-grey-800 hover:text-dark-grey-500 px-6 py-5 bg-blue-600 hover:bg-gray-600 rounded-xl" >Sign Up as Student</button>
+                        <button class="text-sm font-normal text-dark-grey-800 hover:text-dark-grey-500 px-6 py-5 bg-blue-600 hover:bg-gray-600 rounded-xl">Sign Up as Tutor</button>
+                    </div>
+                </div>
+
+                <div class="p-10">
+                    <img src="./Images/image.png" class="rounded-3xl shadow-main h-full" alt="">
+                </div>
+            </section>
+       </div>
+
+       <!-- Tuttors -->
+       <div class="container mx-auto py-10 flex-col items-center justify-center ">
+            <div class="flex flex-col items-start justify-center mt-12 ">
+                <h1 class="mb-4 text-3xl lg:text-4xl font-extrabold text-dark-grey-900 text-center">Tutors</h1>
+                <p class="text-lg text-center lg:w-7/12 text-gray-700">
+                
+                </p>
+            </div>
+
+
+            <div class="overflow-x-auto whitespace-nowrap flex p-8">
+                <img src="./Tutors/Screenshot 2024-03-04 154830.png" alt="Image 1" class="inline-block mr-10">
+                <img src="./Tutors/Screenshot 2024-03-04 154853.png" alt="Image 2" class="inline-block mr-10">
+                <img src="./Tutors/Screenshot 2024-03-04 154912.png" alt="Image 3" class="inline-block mr-10">
+                <img src="./Tutors/Screenshot 2024-03-04 154944.png" alt="Image 4" class="inline-block mr-10">
+                <img src="./Tutors/Screenshot 2024-03-04 155002.png" alt="Image 5" class="inline-block mr-10">
+                <img src="./Tutors/Screenshot 2024-03-04 155108.png" alt="Image 6" class="inline-block mr-10">
+                <img src="./Tutors/Screenshot 2024-03-04 155127.png" alt="Image 7" class="inline-block mr-10">
+                <img src="./Tutors/Screenshot 2024-03-04 155258.png" alt="Image 8" class="inline-block mr-10">
+                <img src="./Tutors/Screenshot 2024-03-04 155700.png" alt="Image 9" class="inline-block mr-10">
+                <!-- Add more images here -->
+            </div>
+
+        </div>
+
+       <!-- Popular Subjects -->
+        <div class="container mx-auto py-10 flex-col items-center justify-center ">
+            <!-- Headers -->
+            <div class="flex flex-col items-start justify-center mt-12 ">
+                <h1 class="mb-4 text-3xl lg:text-4xl font-extrabold text-dark-grey-900 text-center">Popular Subjects</h1>
+                <p class="text-lg text-center lg:w-7/12 text-gray-700">
+                   
+                </p>
+            </div>
+
+            <!-- Subjects -->
+            <div class=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 mt-18">
+
+                <div class="flex flex-col items-center gap-6 px-6 py-5 rounded-3xl shadow-main hover:bg-blue-300 transition duration-200">
+                    <div class="flex items-center justify-center  rounded-2xl">
+                        <img src="./Subjects/chemisttry.png" alt="">
+                        
+                    </div>
+                    <div class="flex flex-col gap-2 text-center px-6">
+                        <h4 class="text-2xl font-extrabold text-dark-grey-900">Science</h4>
+                        <p class="font-medium text-grey-700">
+                            
+                        </p>
+                    </div>
+                </div>
+
+                <div class="flex flex-col items-center gap-6 px-6 py-5 rounded-3xl shadow-main hover:bg-blue-300 transition duration-200">
+                    <div class="flex items-center justify-center  rounded-2xl">
+                        <img src="./Subjects/Screenshot 2024-03-04 093603.jpg" alt="" >
+                        
+                    </div>
+                    <div class="flex flex-col gap-2 text-center px-6">
+                        <h4 class="text-2xl font-extrabold text-dark-grey-900">Mathematics</h4>
+                        <p class="font-medium text-grey-700">
+                            
+                        </p>
+                    </div> 
+                </div>
+    
+                <div class="flex flex-col items-center gap-6 px-6 py-5 rounded-3xl shadow-main hover:bg-blue-300 transition duration-200">
+                    <div class="flex items-center justify-center  rounded-2xl">
+                        <img src="./Subjects/History.png" alt="" >
+                        
+                    </div>
+                    <div class="flex flex-col gap-2 text-center px-6">
+                        <h4 class="text-2xl font-extrabold text-dark-grey-900">History</h4>
+                        <p class="font-medium text-grey-700">
+                            
+                        </p>
+                    </div>
+                </div>
+
+                <div class="flex flex-col items-center gap-6 px-6 py-5 rounded-3xl shadow-main hover:bg-blue-300 transition duration-200">
+                    <div class="flex items-center justify-center  rounded-2xl">
+                        <img src="./Subjects/art.png" alt="" >
+                        
+                    </div>
+                    <div class="flex flex-col gap-2 text-center px-6">
+                        <h4 class="text-2xl font-extrabold text-dark-grey-900">Art</h4>
+                        <p class="font-medium text-grey-700">
+                            
+                        </p>
+                    </div> 
+                </div>
+    
+                <div class="flex flex-col items-center gap-6 px-6 py-5 rounded-3xl shadow-main hover:bg-blue-300 transition duration-200">
+                    <div class="flex items-center justify-center  rounded-2xl">
+                        <img src="./Subjects/music.png" alt="">
+                        
+                    </div>
+                    <div class="flex flex-col gap-2 text-center px-6">
+                        <h4 class="text-2xl font-extrabold text-dark-grey-900">Music</h4>
+                        <p class="font-medium text-grey-700">
+                            
+                        </p>
+                    </div>
+                </div>
+
+                <div class="flex flex-col items-center gap-6 px-6 py-5 rounded-3xl shadow-main hover:bg-green-300 transition duration-200">
+                    <div class="flex items-center justify-center  rounded-2xl">
+                        <img src="./Subjects/language.png" alt="" >
+                        
+                    </div>
+                    <div class="flex flex-col gap-2 text-center px-6">
+                        <h4 class="text-2xl font-extrabold text-dark-grey-900">Language</h4>
+                        <p class="font-medium text-grey-700">
+                            
+                        </p>
+                    </div> 
+                </div>
+
+
+            </div>
+            
+           <div class="flex">
+            <div class="">
+                <img src="./Background-Images/Screenshot 2024-03-04 111947.png" alt="">
+            </div>
+
+
+           </div>
+
+        </div>
+    </div>
+
+
+    <div class="bg-yellow-800 h-24">
+        
+        <hr class="py-4">
+        <p class="flex items-center justify-center">&copy; 2024 TutorFinder</p>
+    </div>
+    
+</body>
+</html>
